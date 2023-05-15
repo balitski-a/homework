@@ -1,0 +1,324 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding-left: 25px;
+    left: 0;
+    right: 0;
+    top: 0;
+    min-height: 75px;
+}
+
+header .container {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 85px auto;
+}
+
+.logo {
+    background-image: url(icons/logo.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 85px;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.nav a {
+    display:inline-grid;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    min-width: 113px;
+    transition: .3s;
+}
+
+.nav a:hover {
+    background-color:#EC7979;;
+}
+
+.nav a:active {
+    background-color: #AB4949;
+}
+
+section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1510px;
+    height: 800px;
+}
+
+.main-page-container {
+    display: inline-block;
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.main-logo {
+    background-image: url(icons/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 160px 55px;
+    height: 100px;
+    padding-left: 150px;
+}
+
+.main-title {
+    color: #fff;
+    font-style: ;
+    font-size: 35px;
+    line-height: 56px;
+    font-weight: 300;
+}
+
+.after {
+    color: #FFF;
+}
+
+.after::before {
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #FFF;
+    display: block;
+    margin: 55px 0 42px 0;
+}
+
+.main-btn {
+    color: #FFF;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 60px;
+    border: 2px solid #FFF;
+    height: 60px;
+    width: 270px;
+    transition: .3s;
+}
+
+
+
+h2 {
+    margin: 30px 0 45px 0;
+    text-align: center;
+}
+
+h2 span {
+    color: #EC7979;
+}
+
+.form-wrap {
+    padding: 30px 50px 50px;
+}
+
+form {
+    width: 100%;
+    max-width: 450px;
+    height: 397px;
+    /*border: 1px solid red;*/
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-left: 650px;
+    margin-top: -550px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 16px 0;
+}
+
+.form-btn {
+    cursor: pointer;
+    color: #fff;
+    background-color: #EC7979;
+    width: 100%;
+    padding: 25px;;
+    border: 0;
+    transition: .3s;
+}       
+
+button:hover {
+    background-color: #AB4949;
+}
+
+.section2 {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 500px);
+    background-color:#F8EFEF;
+    width: 100%;
+    max-width: 1510px;
+    height: 140px;
+}
+
+.section2-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 50px);
+    padding-top: 10px;
+    padding-left: 100px;
+    /*align-content: center;*/
+    justify-content: left;
+}
+
+.h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.section2-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.fb-icon {
+    background-image: url(icons/facebook-icon.svg);
+    height: 53px;
+}
+.twitter-icon {
+    background-image: url(icons/twitter-icon.svg);
+    height: 53px;
+}
+.linkedin-icon {
+    background-image: url(icons/linkedin-icon.svg);
+    height: 53px;
+}
+.pinterest-icon {
+    background-image: url(icons/pinterest-icon.svg);
+    height: 53px;
+}
+.instagram-icon {
+    background-image: url(icons/instagram-icon.svg);
+    height: 53px;
+}
+.github-icon {
+    background-image: url(icons/github-icon.svg);
+    height: 53px;
+    }
+
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 90px);
+    padding-right: 100px;
+    align-content: center;
+    justify-content: right;
+}
+
+.section {
+    color: #FFF;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+
+.section3 {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.section3-title {
+    text-align: center;
+    /*margin: 0;*/
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.section3-subtitle {
+    text-align: center;
+    /*margin: 0;*/
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 73px;
+}
+
+.section3-btn {
+    margin-left: 400px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    background-color: transparent;
+    width: 370px;
+    height: 58px;
+    font-size: 18px;
+    line-height: 25px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding-left: 25px;
+    left: 0;
+    right: 0;
+    top: 0;
+    min-height: 85px;
+}
+
+footer .container-footer {
+    display: grid;
+    justify-content: center;
+    padding-top: 10px;
+    grid-template-columns: repeat(6, 40px);
+    grid-column-gap: 40px;
+}
+
+.footer-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.fb-icon-footer {
+    background-image: url(icons/facebook-icon.svg);
+    height: 53px;
+}
+
+.twitter-icon-footer {
+    background-image: url(icons/twitter-icon.svg);
+    height: 53px;
+}
+
+.linkedin-icon-footer {
+    background-image: url(icons/linkedin-icon.svg);
+    height: 53px;
+}
+
+.pinterest-icon-footer {
+    background-image: url(icons/pinterest-icon.svg);
+    height: 53px;
+}
+
+.instagram-icon-footer {
+    background-image: url(icons/instagram-icon.svg);
+    height: 53px;
+}
+
+.github-icon-footer {
+    background-image: url(icons/github-icon.svg);
+    height: 53px;
+}
+
+.footer-txt {
+    text-align: center;
+}
